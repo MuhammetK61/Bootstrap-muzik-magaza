@@ -1,0 +1,95 @@
+/* Arka plan*/
+body{
+  background-color: #e9ecef;
+}
+/* Üst gezinme çubuğu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  .dk{
+    color:crimson
+  }
+  /* Merhaba kısmı*/
+  .jumbotron{
+    height:100%;
+    width:100%;
+    color: crimson;
+  }
+  .container {
+    width:1025px;
+  }
+  .jumbotron .container{
+    max-width: 100%;
+  }
+  .jumbotron p{
+    font-size: 14px;
+    color: black;
+  }
+  /* Anasayfadaki karşılama yazısı */
+  .bl{
+    font-size: 14px;
+    margin-top: 0px;
+    margin: 0px auto;
+  }
+  /* Sitemizde bulunan müzik aletleri yazısı*/
+  .jumbotron h4{
+    color:darkgoldenrod;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .jumbotron ul{
+    font-size: 16px;
+    background-color: #e9ecef;
+    color:black
+  }
+
+  .jumbotron li{
+    list-style-type:disc;
+    margin-left: 45%;
+  }
+  h1{
+    color: rebeccapurple;
+    font-size: 32px; 
+  }
+  /* Misyon-Vizyon-iletişim classı*/
+  .msvz{
+    color:purple;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  footer{
+    font-size: 14px;
+    color: black;
+  }
+  footer a{
+    color: red;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  .card{
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
